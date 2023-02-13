@@ -23,4 +23,4 @@ for index,row in df.iterrows():
     pdf.cell(w=0,h=12,txt=row['Topic'],align='L',ln=1)
     pdf.line(10,22,200,22)
 
-pdf.output('out.pdf')
+pdf.output('tmp/out.pdf')
